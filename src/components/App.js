@@ -28,7 +28,7 @@ function App() {
   const [priceDescend, selectPriceDescend] = React.useState(false);
   const [priceAscend, selectPriceAscend] = React.useState(false);
   const [locationData, setLocationData] = React.useState(
-    {location: 'Santa Cruz, CA', radius: '40'});
+      {location: 'Santa Cruz, CA', radius: '40'});
 
   useEffect(()=>{
     setCurrentListing();
